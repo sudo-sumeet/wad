@@ -17,8 +17,8 @@ What are routes?
   
 *****Question 2*****
  How to add a new gem to your project?
-	Add whatever gem you want to use in Gemfile.
-	Execute bundle install
+-> Add whatever gem you want to use in Gemfile.
+   Execute bundle install
   
 *****Question 3*****
 Sinatra application to calcule nth fibonaci
