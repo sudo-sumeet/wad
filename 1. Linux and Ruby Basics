@@ -1,0 +1,34 @@
+*****Question 1*****
+
+pwd: print name of current/working directory
+
+top: display Linux programmes
+
+less: opposite of more :P .Less is a program similar to more, but it has many  more  features.
+       Less  does  not  have to read the entire input file before starting, so
+       with large input files it starts up faster than text  editors  like  vi. 
+       Less uses termcap (or terminfo on some systems), so it can run on
+       a variety of terminals.  There is even  limited  support  for  hardcopy
+       terminals.
+       
+man: an interface to the on-line reference manuals. 'man' is the manual pager of the system.
+
+cat: concatenate files and print on the standard output
+
+chmod: change file mode bits. chmod changes the permissions of each
+	     given file according to mode, where mode describes the permissions to
+	     modify. Mode can be specified with octal numbers or with letters.
+       
+*****Question 2*****
+
+chmod a+x modifies the argument's mode while chmod 755 sets it.
+chmod a+x will add the exec bits to the file but will not touch other bits. 
+For example file might be still unreadable to others and group.
+chmod 755 will always make the file with perms 755 no matter what initial permissions were.
+On the other hand, chmod +x changes file permissions to executable.
+
+*****Question 3*****
+
+A Read–Eval–Print Loop (REPL), also known as an interactive toplevel or language shell, is a simple, interactive computer programming environment that takes single user inputs (i.e. single expressions), evaluates them, and returns the result to the user; a program written in a REPL environment is executed piecewise. 
+The term is most usually used to refer to programming interfaces similar to the classic Lisp machine interactive environment.
+Common examples include command line shells and similar environments for programming languages, and is particularly characteristic of scripting languages.
